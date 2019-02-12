@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
 html, body {
-	background-color: pink;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgba(0, 64, 105, 0.6), rgba(0, 64, 105, 0.6)), url("../images/plane-two.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	position: fixed;
+}
+
+h1, h2, h3 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 6.5em;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 2em;
+	margin-top: .2em;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+.side-bar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
 }
